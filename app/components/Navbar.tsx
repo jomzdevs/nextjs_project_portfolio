@@ -2,7 +2,6 @@
 
 import { useSplash } from "../contexts/SplashContext";
 
-// Extend the Window interface to include __SHOW_SPLASH__
 declare global {
   interface Window {
     __SHOW_SPLASH__?: boolean;
@@ -50,6 +49,7 @@ const Navbar = () => {
               width={60}
               height={70}
               className="rounded-full mr-2"
+
             />
             <span>Jomari Divinagracia</span>
           </Link>
