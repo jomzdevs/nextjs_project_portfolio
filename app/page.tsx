@@ -1,7 +1,7 @@
 "use client"
 import { useEffect, useState } from "react"
-import { SplashPage } from "./components/Splash"
-import Navbar from "./components/Navbar"
+import { SplashPage } from "../components/Splash"
+import Navbar from "../components/Navbar"
 import { SplashProvider, useSplash } from "./contexts/SplashContext"
 
 const facts = [
