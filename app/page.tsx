@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react"
 import { SplashPage } from "../components/Splash"
 import Navbar from "../components/Navbar"
-import { SplashProvider, useSplash } from "./contexts/SplashContext"
+import { SplashProvider, useSplash } from "./pages/contexts/SplashContext"
 
 const facts = [
   "The first computer bug was an actual moth found in a computer.",

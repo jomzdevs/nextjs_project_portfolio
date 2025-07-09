@@ -4,7 +4,7 @@ import { ThemeProvider } from "next-themes";
 import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/WebFooter";
-import { SplashProvider } from './contexts/SplashContext'
+import { SplashProvider } from './pages/contexts/SplashContext'
 import { Suspense } from "react";
 
 export const metadata: Metadata = {

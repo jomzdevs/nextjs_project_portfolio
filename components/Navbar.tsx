@@ -1,6 +1,6 @@
 "use client";
 
-import { useSplash } from "../app/contexts/SplashContext";
+import { useSplash } from "../app/pages/contexts/SplashContext";
 
 declare global {
   interface Window {
